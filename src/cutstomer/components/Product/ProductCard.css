@@ -1,0 +1,32 @@
+.productCard.textPart{
+    transition: transform .3s ease-out;
+
+}
+.productCard:hover.textPart{
+    transform: translateY(-1rem);
+}
+
+.productCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card {
+    width: 300px;     /* Fixed width for each card */
+    height: 400px;    /* Fixed height for each card */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    margin: 20px;     /* Added margin to create space between the cards */
+  }
+  
+  /* Image inside the card */
+  .product-image {
+    width: 100%;    
+    height: 100%;
+    object-fit: cover;
+  }
+  
